@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create Profile</title>
+</head>
+<body>
+<fieldset >
+<legend>Create Profile</legend>
+<form action="http://localhost:8080/StudentsApp/createprofile" method="post" >
+	<table>
+		<tr>
+		<td>
+			<fieldset>
+			<legend>Student Basic Info</legend>
+				<table>
+					<tr>
+						<td>Reg No:</td><td><input type="number" name="regno" placeholder="Enter Reg.No" required="required"/></td>
+					</tr>
+					<tr>
+						<td>Password:</td><td><input type="password" name="pass" placeholder="Enter Password" required="required"/></td>
+					</tr>
+					<tr>
+						<td>Is Admin?:</td><td><select name="isadmin">
+									<option value="">Select</option>
+									<option value="Y">Yes</option>
+									<option value="N">No</option>
+								</select>
+						</td>
+					</tr>
+					<tr><td>&nbsp;</td></tr>
+					<tr><td>&nbsp;</td></tr>
+					
+				</table>
+			</fieldset>
+		</td>
+		<td>
+			<fieldset>
+			<legend>Course Details</legend>
+				<table>
+					<tr>
+						<td>Java</td><td><input type="checkbox" name="course_detais" value="1"/></td>
+						<td>HTML</td><td><input type="checkbox" name="course_detais" value="6"/></td>
+					</tr>
+					<tr>
+						
+						<td>J2EE</td><td><input type="checkbox" name="course_detais" value="2"/></td>
+						<td>Springs</td><td><input type="checkbox" name="course_detais" value="7"/></td>
+					</tr>
+					<tr>
+						<td>SQL</td><td><input type="checkbox" name="course_detais" value="3"/></td>
+						<td>CSS</td><td><input type="checkbox" name="course_detais" value="8"/></td>
+					</tr>
+					<tr>
+						<td>Hibernet</td><td><input type="checkbox" name="course_detais" value="4"/></td>
+						<td>General Apti</td><td><input type="checkbox" name="course_detais" value="9"/></td>
+					</tr>
+					<tr>
+						<td>Android</td><td><input type="checkbox" name="course_detais" value="5"/></td>
+						<td>GPS</td><td><input type="checkbox" name="course_detais" value="10"/></td>	
+					
+					</tr>
+				</table>
+			</fieldset>
+		</td>
+		</tr>
+		<tr>
+		<td>
+			<fieldset>
+			<legend>Students Info</legend>
+				<table>
+					<tr>
+						<td>Students First Name:</td><td><input type="text" name="sfname" placeholder="Enter Students First Name" required="required"/></td>
+					</tr>
+					<tr>
+						<td>Students Middle Name:</td><td><input type="text" name="smname"  placeholder="Enter Students Middle Name" required="required"/></td>
+					</tr>
+					<tr>
+						<td>Students Last Name:</td><td><input type="text" name="slname"  placeholder="Enter Students Last Name" required="required"/></td>
+					</tr>
+				</table>
+			</fieldset>
+		</td>
+		<td>
+			<fieldset>
+			<legend>Guardian Info</legend>
+				<table>
+					<tr>
+						<td>Guardian First Name:</td><td><input type="text" name="gfname"   placeholder="Enter Guardian's First Name" required="required"/></td>
+					</tr>
+					<tr>
+						<td>Guardian Middle Name:</td><td><input type="text" name="gmname" placeholder="Enter Guardian's Middle Name" required="required"/></td>
+					</tr>
+					<tr>
+					<td>Guardian Last Name:</td><td><input type="text" name="glname" placeholder="Enter Guardian's Last Name"  required="required"/></td>
+					</tr>
+				</table>
+			</fieldset>
+		</td>
+		</tr>
+			
+		<tr>
+			<td>
+			<fieldset>
+			<legend>Address Info Temporary</legend>
+				<table>
+					<tr>
+						<td>Address 1</td><td><input type="text" name="presentaddr1" placeholder="Enter Address1" required="required"/></td>
+					</tr>
+					<tr>
+						<td>Address 2</td><td><input type="text" name="presentaddr2" placeholder="Enter Address2" required="required"/></td>
+					</tr>
+					<tr>
+						<td>Landmark</td><td><input type="text" name="presentland" placeholder="Enter A Landmark" required="required"/></td>
+					</tr>
+					<tr>
+						<td>City</td><td><input type="text" name="presentcity"placeholder="Enter City" required="required"/></td>
+					</tr>
+					<tr>
+						<td>Pincode</td><td><input type="number" name="presentpin" placeholder="Enter Pincode" required="required"/></td>
+					</tr>
+				</table>
+			</fieldset>
+		</td>
+		<td>
+			<fieldset>
+			<legend>Address Info Permanent</legend>
+				<table>
+					<tr>
+						<td>Address 1</td><td><input type="text" name="permanentaddr1" placeholder="Enter Address1" required="required"/></td>
+					</tr>
+					<tr>
+						<td>Address 2</td><td><input type="text" name="permanentaddr2" placeholder="Enter Address2" required="required"/></td>
+					</tr>
+					<tr>
+						<td>Landmark</td><td><input type="text" name="permanentland" placeholder="Enter Landmark" required="required"/></td>
+					</tr>
+					<tr>
+						<td>City</td><td><input type="text" name="permanentcity" placeholder="Enter City" required="required"/></td>
+					</tr>
+					<tr>
+						<td>Pincode</td><td><input type="number" name="permanentpin" placeholder="Enter Pincode" required="required"/></td>
+					</tr>
+				</table>
+			</fieldset>
+		</td>
+		</tr>
+	</table>
+	<br/><br/>
+	<center><input type="submit" value="Create Profile" /> <input type="reset" value="Reset" /> </center>
+</form>
+
+</fieldset>
+</body>
+</html>

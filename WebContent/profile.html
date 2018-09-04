@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Profile</title>
+</head>
+<body>
+	
+	<form action="http://localhost:8080/StudentsApp/profile" method="post" >
+		<h2>Registration Form</h2>
+	 ID:<input type="number" name="id" maxlength="5"> <br/>
+	 fname:<input type="text" name="fname" maxlength="50"><br/><br/>
+	 mname:<input type="text" name="mname" maxlength="50"><br/><br/>
+	 lname:<input type="text" name="lname" maxlength="50"><br/><br/>
+	 addr1:<input type="text" name="addr1" maxlength="50"><br/><br/>
+	 addr2:<input type="text" name="addr2" maxlength="50"><br/><br/>
+	 I know : <input type="checkbox" name="iknow" value="java">java <br/> 
+	 		  <input type="checkbox" name="iknow" value="sql">sql	<br/>
+	 		  <input type="checkbox" name="iknow" value="html">html <br/>
+	 		  <input type="checkbox" name="iknow" value="j2ee">j2ee <br/><br/>
+	 gender : <input type="radio" name="sex" value="male" checked>Male
+	 		  <input type="radio" name="sex" value="female">Female <br/><br/>
+	 
+	 I have : <select name="ihave" multiple="multiple">
+				 <option value="cycle">cycle</option>
+				 <option value="car">car</option>
+				 <option value="motorcycle">motorcycle</option>
+			 </select>
+	 		<br/><br/>
+	  <textarea name="about" rows="5" cols="20" draggable="false" width="30" height="20">About Me</textarea>
+	 <br/><br/>
+	 <input type="submit" value="Submit">
+	</form>
+</body>
+</html>

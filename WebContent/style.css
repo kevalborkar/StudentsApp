@@ -1,0 +1,100 @@
+	body{
+		font-family:Cambria sans-serif;
+	}
+		#div li::after{
+			content: "|";
+			padding-left: 5px;
+			padding-right: 5px;
+			color:black;
+		}
+		ul{
+			list-style-type: none;
+			float: right;
+		}
+		li{
+
+			display:inline;
+		}
+		.highlight{
+			color:red;
+		}
+		ul a,{
+			text-decoration: none;
+			color:black;
+		}
+		#name{
+			font-family: Cambria(Headings);
+			font-size: 15px;
+			color:Blue;
+		}
+		.header ul{
+			list-style-type: none;
+   			float:right;
+    		background-color:#0f3777;
+    		width:100%;
+    		display: inline-block;
+		}
+	header	li .a, .dropbtn {
+    display: inline-block;
+    color:white;
+    text-align: center;
+    padding: 10px 10px;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover, .dropdown:hover .dropbtn {
+    background-color:#82a4f2;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:auto;
+}
+.dropdown-content a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color:#82a4f2}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#font{
+	font-size:20px;
+}
+.color{
+	color:black;
+}
+.a{
+	color:white;
+}
+#top{
+
+	margin-top:-10px;
+}
+ul.topnav li a.a {
+
+	display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.topnav li a.dropbtn {
+
+	display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
